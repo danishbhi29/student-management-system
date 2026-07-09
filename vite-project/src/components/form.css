@@ -1,0 +1,162 @@
+/* ==========================
+        CONTAINER
+========================== */
+
+.container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* ==========================
+          FORM
+========================== */
+
+.form {
+  width: 420px;
+  max-width: 100%;
+  padding: 35px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 15px 40px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: .3s;
+}
+
+.form:hover{
+  transform: translateY(-4px);
+}
+
+/* ==========================
+        FORM TITLE
+========================== */
+
+.formTitle{
+    font-size:32px;
+    text-align:center;
+    color:#4f46e5;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/* ==========================
+          LABELS
+========================== */
+
+.form label{
+  font-size:15px;
+  font-weight:600;
+  color:#333;
+}
+
+/* ==========================
+          INPUTS
+========================== */
+
+.form input{
+  padding:12px 15px;
+  border:2px solid #ddd;
+  border-radius:10px;
+  font-size:15px;
+  outline:none;
+  transition:.3s;
+  background:white;
+}
+
+.form input:focus{
+  border-color:#4f46e5;
+  box-shadow:0 0 0 4px rgba(79,70,229,.15);
+}
+
+/* file input */
+
+.form input[type=file]{
+  padding:10px;
+  cursor:pointer;
+}
+
+/* ==========================
+         BUTTON
+========================== */
+
+.form button{
+  margin-top:8px;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:#4f46e5;
+  color:white;
+  font-size:17px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.form button:hover{
+  background:#4338ca;
+  transform:translateY(-2px);
+}
+
+.form button:active{
+  transform:scale(.98);
+}
+
+/* ==========================
+       ERROR / SUCCESS
+========================== */
+
+.error{
+  color:#ef4444;
+  font-size:13px;
+  margin-top:-8px;
+}
+
+.success{
+  color:#16a34a;
+  text-align:center;
+  font-weight:600;
+}
+
+/* ==========================
+        DARK THEME
+========================== */
+
+body.dark .form{
+  background:#1f2937;
+  box-shadow:0 15px 35px rgba(0,0,0,.45);
+}
+
+body.dark .formTitle{
+  color:#818cf8;
+}
+
+body.dark .form label{
+  color:#f1f5f9;
+}
+
+body.dark .form input{
+  background:#111827;
+  color:white;
+  border:2px solid #374151;
+}
+
+body.dark .form input::placeholder{
+  color:#9ca3af;
+}
+
+body.dark .form input:focus{
+  border-color:#6366f1;
+  box-shadow:0 0 0 4px rgba(99,102,241,.25);
+}
+
+body.dark .form button{
+  background:#6366f1;
+}
+
+body.dark .form button:hover{
+  background:#4f46e5;
+}

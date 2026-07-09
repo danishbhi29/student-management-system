@@ -1,0 +1,21 @@
+# Environment variables
+backend/.env
+vite-project/.env
+
+# Node modules
+backend/node_modules/
+vite-project/node_modules/
+
+# Build folder
+vite-project/dist/
+
+
+# Uploaded images
+backend/uploads/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

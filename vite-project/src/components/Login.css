@@ -1,0 +1,131 @@
+/* =======================
+   Container
+======================= */
+
+.loginContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:85vh;
+}
+
+
+/* =======================
+   Form
+======================= */
+
+.loginForm{
+    width:400px;
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+
+/* =======================
+   Title
+======================= */
+
+.loginTitle{
+    text-align:center;
+    color:#333;
+}
+
+
+/* =======================
+   Input Box
+======================= */
+
+.inputBox{
+    display:flex;
+    align-items:center;
+
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:10px;
+
+    transition:.3s;
+}
+
+.inputBox:focus-within{
+    border-color:#007bff;
+    box-shadow:0 0 5px rgba(0,123,255,.4);
+}
+
+
+/* =======================
+   Icon
+======================= */
+
+.inputIcon{
+    font-size:18px;
+    margin-right:10px;
+}
+
+
+/* =======================
+   Input
+======================= */
+
+.loginInput{
+    flex:1;
+
+    border:none;
+    outline:none;
+
+    font-size:16px;
+}
+
+
+/* =======================
+   Show Password
+======================= */
+
+.showBtn{
+    background:none;
+    border:none;
+
+    cursor:pointer;
+
+    font-size:18px;
+}
+
+
+/* =======================
+   Login Button
+======================= */
+
+.loginBtn{
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#007bff;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.loginBtn:hover{
+
+    background:#0056d2;
+
+}
+
+
+
+ 
