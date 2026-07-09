@@ -1,4 +1,4 @@
-import Form from "./components/Form";
+import Form from "./components/form";
 import Admin from "./components/adminside";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
