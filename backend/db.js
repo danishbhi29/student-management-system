@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 
 //function to connect with database
-const url = process.env.MONGO_URL;
+const url = process.env.MONGO_URI;
 
 const connectDB = async () => {
     try {
